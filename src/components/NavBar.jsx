@@ -1,3 +1,6 @@
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import React from "react";
 
 function NavBar() {
@@ -31,7 +34,9 @@ function NavBar() {
               <li className="bg-orange-600 px-4 py-2 text-white rounded-lg hover:cursor-pointer ">
                 Lets Talk
               </li>
-              <li className="py-2 hover:cursor-pointer">ENV</li>
+              <li className="py-2 hover:cursor-pointer">
+                ENV <FontAwesomeIcon icon={faAngleDown} />
+              </li>
             </ul>
           </div>
         </div>

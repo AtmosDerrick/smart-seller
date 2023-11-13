@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import Spining from "./components/Spining";
 function App() {
   return (
-    <div className="App ">
+    <div className="App my-2">
       <NavBar />
       <Home />
     </div>
