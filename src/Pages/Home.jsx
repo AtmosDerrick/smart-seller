@@ -5,6 +5,9 @@ function Home() {
   return (
     <div>
       <Spining />
+      <div>
+      
+      </div>
     </div>
   );
 }

@@ -60,7 +60,7 @@ function Spining() {
 
   return (
     <div className=" h-[90vh]  bg-white">
-      <div className="w-3/4 mx-auto flex justify-between items-center">
+      <div className="w-3/4 mx-auto flex justify-between gap-36 items-center">
         <div className="w-3/4 mt-4  text-center relative">
           <h3 className="text-orange-600 title text-3xl ">
             Transform your B2B commerce experience with SmartSeller
@@ -90,36 +90,62 @@ function Spining() {
             ))}
           </div>
         </div>
-        <div className="w-full flex justify-center h-full items-center mt-24">
-          <div className="circle-container">
-            <div
-              className={"icon-circle "}
-              style={{ transform: `rotate(${rotation}deg)` }}>
-              {icons.map((item, index) => {
-                const { x, y } = getIconPosition(index);
+        <div className="w-full  h-full items-center mt-24">
+          <ul className="marker:text-primary list-outside list-disc ml-6 leading-[4rem] text-2xl">
+            <li>
+              <strong>Unified Commerce Platform</strong>
+            </li>
 
-                return (
-                  <div
-                    key={index}
-                    className={`icon icon${index + 1} ${
-                      activeIndex === index ? "spin" : ""
-                    }`}
-                    style={{
-                      transform: `translate(${x}rem, ${y}rem) scale(${
-                        activeIndex === index ? 1.5 : 1
-                      })`,
-                      transition: "transform 0.5s ease",
-                    }}>
-                    <FontAwesomeIcon
-                      icon={item.icon}
-                      className="text-3xl text-center w-full  text-primary"
-                    />
-                  </div>
-                );
-              })}
-            </div>
-          </div>
+            <li>
+              <strong>Seamless Integration</strong>
+            </li>
+
+            <li>
+              <strong>Enhanced Customer Relationships</strong>
+            </li>
+
+            <li>
+              <strong>Optimized Inventory Management</strong>
+            </li>
+
+            <li>
+              <strong>Data-Driven Insights</strong>
+            </li>
+          </ul>
+          <button className="mt-4 bg-orange-600 font-semibold py-2 px-8 rounded-xl text-white shadow-md text-lg">
+            Contact Us
+          </button>
         </div>
+
+        {
+          // <div className="w-full flex justify-center h-full items-center mt-24">
+          //   <div className="circle-container">
+          //     <div
+          //       className={"icon-circle "}
+          //       style={{ transform: `rotate(${rotation}deg)` }}>
+          //       {icons.map((item, index) => {
+          //         const { x, y } = getIconPosition(index);
+          //         return (
+          //           <div
+          //             key={index}
+          //             className={`icon icon${index + 1} ${activeIndex === index ? "spin" : ""
+          //               }`}
+          //             style={{
+          //               transform: `translate(${x}rem, ${y}rem) scale(${activeIndex === index ? 1.5 : 1
+          //                 })`,
+          //               transition: "transform 0.5s ease",
+          //             }}>
+          //             <FontAwesomeIcon
+          //               icon={item.icon}
+          //               className="text-3xl text-center w-full  text-primary"
+          //             />
+          //           </div>
+          //         );
+          //       })}
+          //     </div>
+          //   </div>
+          // </div>
+        }
       </div>
     </div>
   );
