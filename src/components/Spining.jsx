@@ -59,7 +59,7 @@ function Spining() {
   };
 
   return (
-    <div className=" h-[90vh]  bg-white">
+    <div className=" h-[80vh]  bg-white">
       <div className="w-3/4 mx-auto flex justify-between gap-36 items-center">
         <div className="w-3/4 mt-4  text-center relative">
           <h3 className="text-orange-600 title text-3xl ">
