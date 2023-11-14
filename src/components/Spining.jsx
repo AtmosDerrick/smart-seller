@@ -59,14 +59,14 @@ function Spining() {
   };
 
   return (
-    <div className=" h-[80vh]  bg-white">
-      <div className="w-3/4 mx-auto flex justify-between gap-36 items-center">
-        <div className="w-3/4 mt-4  text-center relative">
+    <div className=" lg:h-[70vh]  bg-white">
+      <div className="xl:w-3/4 mx-auto lg:flex lg:justify-between lg:gap-36 items-center">
+        <div className="lg:w-3/4 mt-4  text-center relative">
           <h3 className="text-orange-600 title text-3xl ">
             Transform your B2B commerce experience with SmartSeller
           </h3>
           <div
-            className="image-container w-full h-[50vh] overflow-hidden"
+            className="image-container w-full h-[35vh] lg:h-[50vh] "
             style={{
               transition: "opacity 0.5s ease",
             }}>
@@ -76,7 +76,7 @@ function Spining() {
                   key={index}
                   src={item.images}
                   alt={item.description}
-                  className="w-full h-full object-cover absolute"
+                  className="w-full absolute"
                   style={{
                     opacity: activeIndex === index ? 1 : 0, // Fade in/out based on active index
                     transition: "opacity 0.5s ease, transform 0.5s ease", // Add transform for sliding effect
@@ -90,32 +90,36 @@ function Spining() {
             ))}
           </div>
         </div>
-        <div className="w-full  h-full items-center mt-24">
-          <ul className="marker:text-primary list-outside list-disc ml-6 leading-[4rem] text-2xl">
-            <li>
-              <strong>Unified Commerce Platform</strong>
-            </li>
+        {
+          <div className="w-full  h-full items-center lg:mt-12">
+            <ul className="marker:text-primary list-outside list-disc ml-6 leading-[2.5rem] lg:leading-[3rem] text-lg lg:text-2xl">
+              <li>
+                <strong>Unified Commerce Platform</strong>
+              </li>
 
-            <li>
-              <strong>Seamless Integration</strong>
-            </li>
+              <li>
+                <strong>Seamless Integration</strong>
+              </li>
 
-            <li>
-              <strong>Enhanced Customer Relationships</strong>
-            </li>
+              <li>
+                <strong>Enhanced Customer Relationships</strong>
+              </li>
 
-            <li>
-              <strong>Optimized Inventory Management</strong>
-            </li>
+              <li>
+                <strong>Optimized Inventory Management</strong>
+              </li>
 
-            <li>
-              <strong>Data-Driven Insights</strong>
-            </li>
-          </ul>
-          <button className="mt-4 bg-orange-600 font-semibold py-2 px-8 rounded-xl text-white shadow-md text-lg">
-            Contact Us
-          </button>
-        </div>
+              <li>
+                <strong>Data-Driven Insights</strong>
+              </li>
+            </ul>
+            <div className="w-full">
+              <button className="mt-4 bg-orange-600 font-semibold py-2 px-8 rounded-xl text-white shadow-md text-lg">
+                Contact Us
+              </button>
+            </div>
+          </div>
+        }
 
         {
           // <div className="w-full flex justify-center h-full items-center mt-24">
