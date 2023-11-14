@@ -244,7 +244,7 @@ function Home() {
                   className="text-xl lg:text-4xl text-white"
                 />
               </div>
-              <div className="w-full px-2 flex justify-between">
+              <div className="w-full lg:px-2 flex justify-between">
                 <div className="h-[2rem] flex items-center justify-start">
                   <div>
                     <FontAwesomeIcon
@@ -297,7 +297,7 @@ function Home() {
                   className="text-xl lg:text-4xl text-white"
                 />
               </div>
-              <div className="w-full px-2 flex justify-between">
+              <div className="w-full lg:px-2 flex justify-between">
                 <div className="h-[2rem] flex items-center justify-start">
                   <div>
                     <FontAwesomeIcon
