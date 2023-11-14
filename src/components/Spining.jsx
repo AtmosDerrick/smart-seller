@@ -62,7 +62,7 @@ function Spining() {
     <div className=" lg:h-[70vh]  bg-white">
       <div className="xl:w-3/4 mx-auto lg:flex lg:justify-between lg:gap-36 items-center">
         <div className="lg:w-3/4 mt-4  text-center relative">
-          <h3 className="text-orange-600 title text-3xl ">
+          <h3 className="text-orange-600 title text-xl lg:text-3xl ">
             Transform your B2B commerce experience with SmartSeller
           </h3>
           <div
@@ -114,7 +114,7 @@ function Spining() {
               </li>
             </ul>
             <div className="w-full">
-              <button className="mt-4 bg-orange-600 font-semibold py-2 px-8 rounded-xl text-white shadow-md text-lg">
+              <button className="mt-2 lg:mt-4 bg-orange-600 font-semibold py-2 px-8 rounded-xl text-white shadow-md text-lg">
                 Contact Us
               </button>
             </div>

@@ -1,9 +1,11 @@
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import React from "react";
+import React, { useState } from "react";
+import Menu from "./Menu";
 
 function NavBar() {
+  const [isActive, setIsActive] = useState(false);
   return (
     <div>
       <nav className="w-full   py-4  items-center bg-white text-primary">
@@ -39,9 +41,17 @@ function NavBar() {
               </li>
             </ul>
           </div>
+          <div
+            className="lg:hidden"
+            onClick={() => {
+              setIsActive(!isActive);
+            }}>
+            <FontAwesomeIcon icon={faBars} className="text-xl" />
+          </div>
         </div>
       </nav>
       <div className="w-full bg-primary h-[5vh] lg:h-[10vh]"></div>
+      <div>{isActive && <Menu />}</div>
     </div>
   );
 }
