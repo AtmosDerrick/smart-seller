@@ -79,29 +79,29 @@ function Home() {
           <h4 className="w-full text-center font-medium text-gray-500 text-lg mb-4">
             Functions
           </h4>
-          <h2 className="title text-2xl text-center text-primary">
+          <h2 className="title text-xl lg:text-2xl text-center text-primary">
             Functions of SmartSeller <br></br>to improve sales performance
           </h2>
-          <div className="w-3/4 mx-auto grid grid-cols-2 gap-8 text-gray-600">
+          <div className="w-3/4 mx-auto grid lg:grid-cols-2 gap-8 text-gray-600">
             <div className="w-full rounded-2xl bg-white shadow-2xl py-4 mt-8 h-[25rem]">
               <FontAwesomeIcon
                 icon={faLocationDot}
                 className="text-3xl text-center text-primary
               w-full"
               />
-              <h3 className="text-2xl text-center text-primary mt-4 font-medium pb-4 tracking-wider">
+              <h3 className="text-xl lg:text-2xl text-center text-primary mt-2 lg:mt-4 font-medium pb-2 lg:pb-4 tracking-wider">
                 Activity Tracking
               </h3>
-              <p className="px-8 py-4">
+              <p className="px-2 py-4">
                 <p className="mb-4">
-                  <h5 className="text-lg font-medium pb-4">
+                  <h5 className="text-lg font-medium pb-2 lg:pb-4">
                     Tracking and Check-in:
                   </h5>{" "}
                   Use GPS to track staff movement including customer check-in
                   verification
                 </p>
                 <p>
-                  <h5 className="text-lg font-medium pb-4">
+                  <h5 className="text-lg font-medium pb-2 lg:pb-4">
                     Plan Routes and Visits:
                   </h5>
                   Monitor daily customer appointments and route plans using
@@ -114,12 +114,12 @@ function Home() {
                 icon={faTruck}
                 className="w-full text-3xl  text-center text-primary"
               />
-              <h3 className="text-2xl text-center text-primary mt-4 font-medium tracking-wider">
+              <h3 className="text-xl lg:text-2xl text-center text-primary mt-2 lg:mt-4 font-medium tracking-wider">
                 Order-Delivery Execution
               </h3>
-              <p className="px-8 py-4">
+              <p className="px-2 py-4">
                 <p className="mb-4">
-                  <h5 className="text-lg font-medium pb-4">
+                  <h5 className="text-lg font-medium pb-2 lg:pb-4">
                     {" "}
                     Order Taking and Processing:
                   </h5>{" "}
@@ -127,7 +127,7 @@ function Home() {
                   pricing list to send orders immediately to the office.
                 </p>
                 <p>
-                  <h5 className="text-lg font-medium pb-4">
+                  <h5 className="text-lg font-medium pb-2 lg:pb-4">
                     {" "}
                     Multiple Pricing:
                   </h5>{" "}
@@ -142,12 +142,12 @@ function Home() {
                 className="text-3xl text-center text-primary
               w-full"
               />
-              <h3 className="text-2xl text-center text-primary mt-4 font-medium pb-4 tracking-wider">
+              <h3 className="text-xl lg:text-2xl text-center text-primary mt-2 lg:mt-4 font-medium pb-2 lg:pb-4 tracking-wider">
                 Customer Communication
               </h3>
-              <p className="px-8 py-4">
+              <p className="px-2 py-4">
                 <p className="mb-4">
-                  <h5 className="text-lg font-medium pb-4">
+                  <h5 className="text-lg font-medium pb-2 lg:pb-4">
                     Customer Mapping and Database:
                   </h5>
                   SENRI will help you in map out your customers with geographic
@@ -155,7 +155,7 @@ function Home() {
                   history.
                 </p>
                 <p>
-                  <h5 className="text-lg font-medium pb-4">
+                  <h5 className="text-lg font-medium pb-2 lg:pb-4">
                     SMS Communication:
                   </h5>
                   SENRI will help you in map out your customers with geographic
@@ -168,19 +168,21 @@ function Home() {
                 icon={faChartSimple}
                 className="text-3xl text-center text-primary w-full"
               />
-              <h3 className="text-2xl text-center text-primary mt-4 font-medium pb-4 tracking-wider">
+              <h3 className="text-xl lg:text-2xl text-center text-primary mt-2 lg:mt-4 font-medium pb-2 lg:pb-4 tracking-wider">
                 Advanced Analytics
               </h3>
-              <p className="px-8 py-4">
+              <p className="px-2 py-4">
                 <p className="mb-4">
-                  <h5 className="text-lg font-medium pb-4">
+                  <h5 className="text-lg font-medium pb-2 lg:pb-4">
                     Customized Analytics Tools:
                   </h5>
                   SENRI web app allows you to analyze historical sales and
                   activity data with detailed analytics modules
                 </p>
                 <p>
-                  <h5 className="text-lg font-medium pb-4">Sales Targeting:</h5>
+                  <h5 className="text-lg font-medium pb-2 lg:pb-4">
+                    Sales Targeting:
+                  </h5>
                   You can assign ranges of targets for field staff and customers
                   so that they can view targets every day history.
                 </p>
@@ -198,7 +200,7 @@ function Home() {
           <div className="flex justify-center">
             <img
               src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/08/featured.png?auto=format&q=60&w=2060&h=1236&fit=crop&crop=faces"
-              className="h-[20rem]"
+              className="h-[15] lg:h-[20rem]"
             />
           </div>
         </div>
@@ -208,15 +210,15 @@ function Home() {
           <h2 className="title text-2xl text-center text-primary pb-8">
             Testimonies
           </h2>
-          <div className="xl:w-3/4 mx-auto flex justify-between gap-12">
-            <div className="w-full h-[30rem] bg-primary rounded-2xl p-4">
+          <div className="xl:w-3/4 mx-auto lg:flex lg:justify-between gap-12">
+            <div className="w-full h-[20rem]lg:h-[30rem] bg-primary rounded-2xl p-4 mb-4 lg:mb-0">
               <div className="pb-4">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
-                  className="text-4xl text-white"
+                  className="text-xl lg:text-4xl text-white"
                 />
               </div>
-              <p className="testimony text-white">
+              <p className="testimony text-white text-xs lg:text-base ">
                 <p>
                   {" "}
                   SmartSeller has revolutionized the way we conduct our B2B
@@ -239,7 +241,7 @@ function Home() {
               <div className="text-right">
                 <FontAwesomeIcon
                   icon={faQuoteRight}
-                  className="text-4xl text-white"
+                  className="text-xl lg:text-4xl text-white"
                 />
               </div>
               <div className="w-full px-2 flex justify-between">
@@ -262,14 +264,14 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-full h-[30rem] bg-primary rounded-2xl p-4">
+            <div className="w-full  h-[20rem]lg:h-[30rem] bg-primary rounded-2xl p-4">
               <div className="pb-4">
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
-                  className="text-4xl text-white"
+                  className="text-xl lg:text-4xl text-white"
                 />
               </div>
-              <p className="testimony text-white">
+              <p className="testimony text-white text-xs lg:text-base">
                 <p>
                   {" "}
                   SmartSeller has revolutionized the way we conduct our B2B
@@ -292,7 +294,7 @@ function Home() {
               <div className="text-right">
                 <FontAwesomeIcon
                   icon={faQuoteRight}
-                  className="text-4xl text-white"
+                  className="text-xl lg:text-4xl text-white"
                 />
               </div>
               <div className="w-full px-2 flex justify-between">
@@ -330,32 +332,36 @@ function Home() {
       </section>
       <section className="w-full bg-gray-700">
         {" "}
-        <footer className="px-4 xl:px-0 xl:w-3/4 mx-auto py-8  h-[40vh] pt-8 text-base text-white font-medium flex justify-between">
-          <div>
+        <footer className="px-4 xl:px-0 xl:w-3/4 mx-auto py-8  lg:h-[40vh] pt-8 lg:text-base text-sm text-white font-medium lg:flex lg:justify-between">
+          <div className="mb-2">
             <p className="text-2xl font-semibold text-primary">SmartMarket</p>
             <p className="text-white">info@smartmarket.com</p>
           </div>
-          <div>
-            <ul className="leading-[2.5rem]">
-              <li className="text-gray-300">Product</li>
-              <li>Overview</li>
-              <li>Packages</li>
-              <li>FAQ</li>
-              <li>Schedule Demo</li>
-              <li>Quotation</li>
+          <div className="mb-2">
+            <ul className="leading-[2rem] lg:leading-[2.5rem] flex justify-justify">
+              <div className="w-full">
+                <li className="text-gray-300">Product</li>
+                <li>Overview</li>
+                <li>Packages</li>
+              </div>
+              <div className="w-full">
+                <li>FAQ</li>
+                <li>Schedule Demo</li>
+                <li>Quotation</li>
+              </div>
             </ul>
           </div>
 
-          <div>
-            <ul className="leading-[2.5rem]">
+          <div className="mb-2">
+            <ul className="leading-[2rem] lg:leading-[2.5rem]">
               <li className="text-gray-300">Newsroom</li>
               <li>Case Studies</li>
               <li>Product Updates</li>
             </ul>
           </div>
 
-          <div>
-            <ul className="leading-[2.5rem]">
+          <div className="mb-2">
+            <ul className="leading-[2rem] lg:leading-[2.5rem]">
               <li className="text-gray-300">Company</li>
               <li>Company Profile</li>
               <li>Mission, Vision, Value</li>
