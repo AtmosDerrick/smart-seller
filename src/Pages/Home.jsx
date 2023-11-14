@@ -252,7 +252,7 @@ function Home() {
                       className="text-2xl pt-2 text-gray-200"
                     />
                   </div>
-                  <div className="pl-4 pt-4 font-medium text-white">
+                  <div className="pl-4  pt-4 text-xs font-medium text-white">
                     GitPlus Ghana
                   </div>
                 </div>
@@ -305,7 +305,7 @@ function Home() {
                       className="text-2xl pt-2 text-gray-200"
                     />
                   </div>
-                  <div className="pl-4 pt-4 font-medium text-white">
+                  <div className="pl-4  pt-4 font-medium text-xs text-white">
                     GitPlus Ghana
                   </div>
                 </div>
