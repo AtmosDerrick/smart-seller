@@ -1,4 +1,8 @@
-import { faAngleDown, faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAngleDown,
+  faBars,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import React, { useState } from "react";
@@ -46,12 +50,29 @@ function NavBar() {
             onClick={() => {
               setIsActive(!isActive);
             }}>
-            <FontAwesomeIcon icon={faBars} className="text-xl" />
+            {isActive ? (
+              <FontAwesomeIcon
+                icon={faXmark}
+                className="text-xl transition-all duration-500"
+              />
+            ) : (
+              <FontAwesomeIcon
+                icon={faBars}
+                className="text-xl transition-all duration-500"
+              />
+            )}
           </div>
         </div>
       </nav>
       <div className="w-full bg-primary h-[5vh] lg:h-[10vh]"></div>
-      <div>{isActive && <Menu />}</div>
+      <div
+        className={
+          isActive
+            ? "absolute h-[50vh] w-full mt-[0] transition-all duration-500 z-[20] "
+            : "absolute h-[50vh] w-full mt-[-100rem] transition-all duration-500 z-20"
+        }>
+        <Menu />
+      </div>
     </div>
   );
 }
