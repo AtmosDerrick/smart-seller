@@ -5,9 +5,9 @@ import React from "react";
 
 function Menu() {
   return (
-    <div className="w-full px-4  backdrop-blur-lg bg-opacity-50 pt-4 absolute bg-white z-20 h-[70vh]">
+    <div className="w-full px-4  backdrop-blur-lg bg-opacity-50  absolute bg-white z-20 h-[70vh]">
       {" "}
-      <ul className="w-full lg:flex lg:justify-between gap-6 text-base font-medium">
+      <ul className="w-full lg:flex lg:justify-between gap-6 text-base font-medium pt-4">
         <li className="hover:cursor-pointer hover:opacity-80  pb-12  border-white  ">
           Functions{" "}
         </li>
