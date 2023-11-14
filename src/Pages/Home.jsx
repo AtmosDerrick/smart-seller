@@ -82,7 +82,7 @@ function Home() {
           <h2 className="title text-xl lg:text-2xl text-center text-primary">
             Functions of SmartSeller <br></br>to improve sales performance
           </h2>
-          <div className="w-3/4 mx-auto grid lg:grid-cols-2 gap-8 text-gray-600">
+          <div className="lg:w-3/4 mx-auto grid lg:grid-cols-2 gap-8 text-gray-600">
             <div className="w-full rounded-2xl bg-white shadow-2xl py-4 mt-8 h-[25rem]">
               <FontAwesomeIcon
                 icon={faLocationDot}
