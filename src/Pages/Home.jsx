@@ -2,11 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faWheatAwn,
-  faDoorOpen,
-  faRightToBracket,
-  faRegistered,
-  faChartLine,
   faLocationDot,
   faTruck,
   faMobile,
@@ -74,7 +69,107 @@ function Home() {
         </div>
       </section>
 
-      <div className="w-full bg-gray-50 py-4">
+      <div className="h-[25rem] w-full mt-4 bg-primary"></div>
+
+      <section className="w-full mt-[-25rem] py-4 mb-12 " id="packages">
+        <div className="xl:w-3/4 mx-auto mt-8 ">
+          <h4 className="w-full text-center font-medium text-white text-lg mb-4">
+            Packages
+          </h4>
+          <h2 className="title text-xl lg:text-2xl text-center text-white mb-8">
+            Choose a Plan
+          </h2>
+
+          <div className="flex justify-between gap-8">
+            <div className="w-full h-[26rem] bg-white shadow-lg ">
+              <div className="bg-gray-50 text-center pb-8">
+                <div className="w-full flex justify-center ">
+                  <h2 className="text-lg font-semibold  mt-2 mb-4  py-1 px-4 text-black">
+                    Team
+                  </h2>
+                </div>
+                <h1 className="text-2xl font-semibold text-black">$ 150</h1>
+                <h4 className="text-sm text-gray-600 font-medium">/Month</h4>
+
+                <div className="w-full flex justify-center mt-8">
+                  <button className="px-8 py-1 bg-black text-white">
+                    Get Started
+                  </button>
+                </div>
+              </div>
+              <div className="w-full text-base mt-4">
+                <ul className="w-3/4 marker:text-orange-500 list-outside list-disc mx-auto">
+                  <li>Seamless Integration</li>
+                  <li>Unified Commerce Experience</li>
+                  <li>Enhanced Customer Relationships</li>
+                  <li>Optimized Inventory Management</li>
+                  <li>Data-Driven Insights</li>
+                  <li>Optimized Inventory Management</li>
+                  <li>Data-Driven Insights</li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-full h-[28rem] bg-white shadow-lg">
+              <div className="bg-gray-50 text-center pb-8">
+                <div className="w-full flex justify-center ">
+                  <h2 className="text-lg font-semibold  mt-2 mb-4  py-1 px-4 text-black">
+                    Team
+                  </h2>
+                </div>
+                <h1 className="text-2xl font-semibold text-black">$ 150</h1>
+                <h4 className="text-sm text-gray-600 font-medium">/Month</h4>
+
+                <div className="w-full flex justify-center mt-8">
+                  <button className="px-8 py-1 bg-black text-white">
+                    Get Started
+                  </button>
+                </div>
+              </div>
+              <div className="w-full text-base mt-4">
+                <ul className="w-3/4 marker:text-orange-500 list-outside list-disc mx-auto">
+                  <li>Seamless Integration</li>
+                  <li>Unified Commerce Experience</li>
+                  <li>Enhanced Customer Relationships</li>
+                  <li>Optimized Inventory Management</li>
+                  <li>Data-Driven Insights</li>
+                  <li>Optimized Inventory Management</li>
+                  <li>Data-Driven Insights</li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-full h-[30rem] bg-white shadow-lg">
+              <div className="bg-gray-50 text-center pb-8">
+                <div className="w-full flex justify-center ">
+                  <h2 className="text-lg font-semibold  mt-2 mb-4  py-1 px-4 text-black">
+                    Team
+                  </h2>
+                </div>
+                <h1 className="text-2xl font-semibold text-black">$ 150</h1>
+                <h4 className="text-sm text-gray-600 font-medium">/Month</h4>
+
+                <div className="w-full flex justify-center mt-8">
+                  <button className="px-8 py-1 bg-black text-white">
+                    Get Started
+                  </button>
+                </div>
+              </div>
+              <div className="w-full text-base mt-4">
+                <ul className="w-3/4 marker:text-orange-500 list-outside list-disc mx-auto">
+                  <li>Seamless Integration</li>
+                  <li>Unified Commerce Experience</li>
+                  <li>Enhanced Customer Relationships</li>
+                  <li>Optimized Inventory Management</li>
+                  <li>Data-Driven Insights</li>
+                  <li>Optimized Inventory Management</li>
+                  <li>Data-Driven Insights</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="w-full bg-gray-50 py-4" id="functions">
         <section className="xl:w-3/4 mx-auto mt-8">
           <h4 className="w-full text-center font-medium text-gray-500 text-lg mb-4">
             Functions
@@ -192,10 +287,10 @@ function Home() {
         </section>
       </div>
 
-      <section className="mt-12 w-full">
+      <section className="mt-12 w-full" id="industries">
         <div className="xl:w-3/4 mx-auto">
           <h2 className="title text-2xl text-center text-primary">
-            Our Partners
+            Industries
           </h2>
           <div className="flex justify-center">
             <img

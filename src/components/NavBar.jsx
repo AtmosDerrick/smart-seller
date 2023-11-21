@@ -18,20 +18,23 @@ function NavBar() {
           <div className="title text-xl hover:cursor-pointer">SmartSeller</div>
           <div className="hidden lg:block">
             <ul className="w-full lg:flex lg:justify-between gap-6 text-base font-medium">
-              <li className="hover:cursor-pointer hover:opacity-80  pb-2  border-white  ">
-                Functions{" "}
-              </li>
-              <li className="hover:cursor-pointer hover:opacity-80  pb-2  border-white">
+              <a
+                href="#functions"
+                className="hover:cursor-pointer hover:opacity-80  pb-2  border-white  ">
+                Functions
+              </a>
+              <a
+                href="#packages"
+                className="hover:cursor-pointer hover:opacity-80  pb-2  border-white">
                 packages{" "}
-              </li>
-              <li className="hover:cursor-pointer hover:opacity-80  pb-2  border-white">
+              </a>
+              <a
+                href="#industries"
+                className="hover:cursor-pointer hover:opacity-80  pb-2  border-white">
                 Industries{" "}
-              </li>
+              </a>
               <li className="hover:cursor-pointer hover:opacity-80  pb-2  border-white">
                 FAQ{" "}
-              </li>
-              <li className="hover:cursor-pointer hover:opacity-80  pb-2  border-white">
-                Company{" "}
               </li>
             </ul>
           </div>
