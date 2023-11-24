@@ -80,7 +80,7 @@ function Home() {
             Choose a Plan
           </h2>
 
-          <div className="flex justify-between gap-8">
+          <div className="lg:flex lg:justify-between gap-2 xl:gap-8">
             <div className="w-full h-[26rem] bg-white shadow-lg ">
               <div className="bg-gray-50 text-center pb-8">
                 <div className="w-full flex justify-center ">
