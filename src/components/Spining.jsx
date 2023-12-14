@@ -10,8 +10,10 @@ import {
 import { faShip } from "@fortawesome/free-solid-svg-icons";
 
 //images
-import welcome from "../assets/images/laptop mockup.png";
-import welcome1 from "../assets/images/welcome1.png";
+import welcome from "../assets/images/picture 1.png";
+import welcome1 from "../assets/images/picture 2.png";
+import welcome2 from "../assets/images/picture 3.png";
+import welcome3 from "../assets/images/picture 4.png";
 
 function Spining() {
   const icons = [
@@ -31,13 +33,13 @@ function Spining() {
       key: 2,
       icon: faRegistered,
       description: "Enhanced Customer Relationships",
-      images: welcome1,
+      images: welcome2,
     },
     {
       key: 3,
       icon: faChartLine,
       description: "Optimized Inventory Management",
-      images: welcome1,
+      images: welcome3,
     },
   ];
   const [activeIndex, setActiveIndex] = useState(0);
